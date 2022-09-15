@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    margin: 0;
+    color: rgb(245, 128, 11);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: #000404;
+  }
+  .box {
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+  }
+  body {
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: black;
+    background-size: cover;
+    background-image: url("https://cdn.glitch.global/e2dd1796-e252-40b9-82e6-a5bacf38061f/spaceship-3827533.jpg?v=1663264494543");
+  }
+  .b1{
+    background-color:#0ab0f1;
+    width: 100px;
+    height: 25px;
+    border-radius: 0px;
+  }
+
+  .b1:hover{
+    background-color: #8ef00e;
+    color: #4CAF50;
+  }
+  .form {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    width: 750px;
+    border-radius: 25px;
+    box-shadow: 2px 4px 10px gray;
+    margin-right: 130px;
+  }
+  label:hover{
+    color: aqua;
+  }
+
+  .entries_box{
+    border-color:  pink;
+    padding : 10px;
+    border-radius: 15px;
+    margin-left: 150px;
+    border-collapse: collapse;
+    border: solid;
+    /* background-color: #4CAF50; */
+  }
+
